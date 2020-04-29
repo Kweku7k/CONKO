@@ -44,7 +44,7 @@ a:hover {
 ==================================================*/
 .navbar-brand {
 font-size: 25px;
-padding: 15px 80px 15px 60px;
+padding: 15px 8px 15px 6px;
 }
 .navbar-default .navbar-brand {
 color: #000000;
@@ -83,7 +83,7 @@ color: #000;
   BOOTSTRAP ADJUSTMENTS
 ==================================================*/
 .row {
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
 }
 .btn {
     margin-bottom:5px;
@@ -91,6 +91,62 @@ color: #000;
 /*=======================================
   INDEX PAGE
 ==================================================*/
+
+.header-text{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 5%;
+
+}
+
+.body-text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+}
+
+.brandy{
+    font-weight: bolder;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 0;
+    padding: 0;
+}
+
+.button{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.options{
+    margin: auto;
+    text-align: center;
+}
+
+#services{
+    background-image: url(../img/scott-graham-5fNmWej4tAA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* width: 100%; */
+}
+
+#products{
+    background-attachment: fixed;
+    background-image: url(../img/gian-cescon-N0g-deioHO4-unsplash.jpg);
+    background-size: cover;
+}
+
+.options{
+    background-color: green;
+    padding: 30%;
+    font-family: 'Poppins', sans-serif;
+}
 
 .box-border {
     border:1px solid #e1e1e1;
